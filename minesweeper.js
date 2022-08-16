@@ -85,7 +85,7 @@ function clickTile() {
     }
 
     if (minesLocation.includes(tile.id)) {
-        // alert("GAME OVER");
+        alert("GAME OVER");
         gameOver = true;
         revealMines();
         return;
